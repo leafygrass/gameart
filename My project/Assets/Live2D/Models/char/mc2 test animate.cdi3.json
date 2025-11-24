@@ -42,9 +42,19 @@
 			"Name": "Scarf"
 		},
 		{
+			"Id": "scarf22",
+			"GroupId": "",
+			"Name": "scarf2"
+		},
+		{
 			"Id": "Hair",
 			"GroupId": "",
 			"Name": "Hair"
+		},
+		{
+			"Id": "bodi",
+			"GroupId": "",
+			"Name": "body"
 		}
 	],
 	"ParameterGroups": [
