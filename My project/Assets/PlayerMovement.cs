@@ -3,18 +3,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public float runSpeed = 70f;
+    
+    private Animator animator;
+    private float horizontalMove = 0f;
+    private bool jump = false;
 
-    public float runSpeed = 60f;
-
-    float horizontalMove = 0f;
-    bool jump = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogError("Animator component not found on " + gameObject.name);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -23,11 +26,17 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
         }
+
+        // Update animator Speed parameter
+        if (animator != null)
+        {
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        }
     }
 
     void FixedUpdate()
     {
-        // Move our character
+        // Move the character
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }

@@ -1,0 +1,67 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Hat"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Ears"
+		},
+		{
+			"Id": "EyesBlink",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "rARM",
+			"GroupId": "ParamGroup",
+			"Name": "RArm"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "RightLeg"
+		},
+		{
+			"Id": "Larm",
+			"GroupId": "ParamGroup",
+			"Name": "LArm"
+		},
+		{
+			"Id": "Legs",
+			"GroupId": "ParamGroup",
+			"Name": "Leg1"
+		},
+		{
+			"Id": "ScarfEnd",
+			"GroupId": "",
+			"Name": "Scarf"
+		},
+		{
+			"Id": "Hair",
+			"GroupId": "",
+			"Name": "Hair"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Limbs"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "mc2 test animate.psd (Corresponding layer not found)"
+		},
+		{
+			"Id": "leg",
+			"Name": "leg"
+		}
+	]
+}
