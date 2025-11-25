@@ -5,9 +5,9 @@
 		"Fps": 30.0,
 		"Loop": true,
 		"AreBeziersRestricted": true,
-		"CurveCount": 13,
-		"TotalSegmentCount": 19,
-		"TotalPointCount": 44,
+		"CurveCount": 18,
+		"TotalSegmentCount": 24,
+		"TotalPointCount": 54,
 		"UserDataCount": 0,
 		"TotalUserDataSize": 0
 	},
@@ -61,6 +61,17 @@
 		},
 		{
 			"Target": "Parameter",
+			"Id": "EyesX",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.933,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
 			"Id": "rARM",
 			"Segments": [
 				0,
@@ -68,6 +79,17 @@
 				0,
 				1.933,
 				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "rARM2",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.933,
+				0
 			]
 		},
 		{
@@ -101,6 +123,17 @@
 				0,
 				1.933,
 				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.933,
+				0
 			]
 		},
 		{
@@ -173,6 +206,28 @@
 				0,
 				1.933,
 				0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "wand1",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.933,
+				0
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.93,
+				1
 			]
 		},
 		{
