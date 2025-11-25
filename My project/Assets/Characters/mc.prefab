@@ -70,6 +70,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 426507756375947408, guid: cd8d92dbbee58a44bb201a64e2a50bfd, type: 3}
+      propertyPath: _maskTexture
+      value: 
+      objectReference: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
     - target: {fileID: 1016994353125970488, guid: cd8d92dbbee58a44bb201a64e2a50bfd, type: 3}
       propertyPath: m_RootOrder
       value: 0

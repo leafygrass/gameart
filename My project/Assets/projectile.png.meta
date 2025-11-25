@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 41d2ec8a57ba11347bb68e504d4ac286
+guid: e31b2e19883529c4797eb1b11b72ba8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4844711068598226159
-    second: ruins_v2_0
+      213: 105169053199506356
+    second: projectile_0
+  - first:
+      213: -3209795618878514358
+    second: projectile_1
+  - first:
+      213: 2935192031122453201
+    second: projectile_2
+  - first:
+      213: -8813465039215467975
+    second: projectile_3
+  - first:
+      213: -528296542710574568
+    second: projectile_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +108,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ruins_v2_0
+      name: projectile_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 7680
-        height: 4320
+        x: 209
+        y: 186
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fec433b6c0fdb3340800000000000000
-      internalID: 4844711068598226159
+      spriteID: 4bb125952b2a57100800000000000000
+      internalID: 105169053199506356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 183
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b142f04e38473d0800000000000000
+      internalID: -3209795618878514358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 424
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d27c9ad995ebb820800000000000000
+      internalID: 2935192031122453201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 163
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932ec391e3840b580800000000000000
+      internalID: -8813465039215467975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8125babe71d1ba8f0800000000000000
+      internalID: -528296542710574568
       vertices: []
       indices: 
       edges: []
@@ -148,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ruins_v2_0: 4844711068598226159
+      projectile_0: 105169053199506356
+      projectile_1: -3209795618878514358
+      projectile_2: 2935192031122453201
+      projectile_3: -8813465039215467975
+      projectile_4: -528296542710574568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
