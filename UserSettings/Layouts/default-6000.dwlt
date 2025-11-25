@@ -337,8 +337,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 939
+    x: 0
+    y: 876
     width: 1415
     height: 447
   m_SerializedDataModeController:
@@ -382,7 +382,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: eac90000
     m_LastClickedID: 51690
-    m_ExpandedIDs: 00000000eac9000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000006eb60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,7 +411,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7e020000
     m_LastClickedID: 638
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000006eb60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,18 +443,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000c2f10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Layer4_Stairs
-      m_OriginalName: Layer4_Stairs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 61456
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -490,8 +490,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1424
-    y: 87
+    x: 1417
+    y: 24
     width: 1127
     height: 1299
   m_SerializedDataModeController:
@@ -539,8 +539,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 87
+    x: 0
+    y: 24
     width: 368
     height: 826
   m_SerializedDataModeController:
@@ -605,8 +605,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 377
-    y: 87
+    x: 370
+    y: 24
     width: 1045
     height: 826
   m_SerializedDataModeController:
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -6.2081604, y: 7.9998083, z: -1.0576282}
     speed: 2
-    m_Value: {x: -6.449576, y: 8.366198, z: -1.0617739}
+    m_Value: {x: -6.2081604, y: 7.9998083, z: -1.0576282}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 8.798131
     speed: 2
-    m_Value: 9.212703
+    m_Value: 8.798131
   m_Ortho:
     m_Target: 1
     speed: 2

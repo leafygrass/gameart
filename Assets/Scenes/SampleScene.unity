@@ -348,6 +348,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 583687257069169344, guid: 0ec533a3e15497e4e92e1c57db44e387, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 583687257069169344, guid: 0ec533a3e15497e4e92e1c57db44e387, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677797965305234613, guid: 0ec533a3e15497e4e92e1c57db44e387, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677797965305234613, guid: 0ec533a3e15497e4e92e1c57db44e387, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.103
+      objectReference: {fileID: 0}
     - target: {fileID: 5931271143743671510, guid: 0ec533a3e15497e4e92e1c57db44e387, type: 3}
       propertyPath: m_Name
       value: Background_Palace_Prefab
