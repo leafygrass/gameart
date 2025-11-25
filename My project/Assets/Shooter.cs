@@ -5,18 +5,29 @@ public class Shooter : MonoBehaviour
     public GameObject projectile;
     public float projectileSpeed = 40f;
     public float spawnOffset = 2f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    private Animator animator;
+
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogWarning("Shooter: No Animator found on " + gameObject.name);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Determine direction based on character’s facing
+            // Trigger wand hold animation
+            if (animator != null)
+            {
+                animator.SetTrigger("Shoot");
+            }
+            
+            // Determine direction based on character's facing
             float direction = transform.localScale.x > 0 ? 1f : -1f;
 
             // Spawn point in front of player
