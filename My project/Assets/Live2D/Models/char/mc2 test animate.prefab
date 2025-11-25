@@ -316,22 +316,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Rendering.CubismPartColorsEditor
   _childDrawableRenderers:
-  - {fileID: 4206179632277697812}
-  - {fileID: 8898272183129516899}
-  - {fileID: 2788781770406569524}
-  - {fileID: 9115288347509564251}
-  - {fileID: 1786489646290592799}
-  - {fileID: 8007288491659122037}
-  - {fileID: 1808985762871199150}
-  - {fileID: 268233567634394693}
-  - {fileID: 5008350362308565298}
-  - {fileID: 3175173056166694647}
-  - {fileID: 1817505404248666549}
-  - {fileID: 1233685173971664511}
-  - {fileID: 5409396350458488282}
-  - {fileID: 7911630506993464542}
-  - {fileID: 6029471055175348563}
-  - {fileID: 778892741341603953}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   _childParts: []
   _isOverriddenPartMultiplyColors: 0
   _isOverriddenPartScreenColors: 0
@@ -615,7 +615,7 @@ Transform:
   m_GameObject: {fileID: 2573475128981896648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00014999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1033,9 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e5d11781244f449b6c9aa654a03100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Rendering.CubismPartColorsEditor
-  _childDrawableRenderers:
-  - {fileID: 0}
-  - {fileID: 0}
+  _childDrawableRenderers: []
   _childParts: []
   _isOverriddenPartMultiplyColors: 0
   _isOverriddenPartScreenColors: 0
@@ -1531,7 +1529,7 @@ Transform:
   m_GameObject: {fileID: 4143688196066579849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2270,8 +2268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e5d11781244f449b6c9aa654a03100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Rendering.CubismPartColorsEditor
-  _childDrawableRenderers:
-  - {fileID: 0}
+  _childDrawableRenderers: []
   _childParts: []
   _isOverriddenPartMultiplyColors: 0
   _isOverriddenPartScreenColors: 0
@@ -3244,7 +3241,7 @@ Transform:
   m_GameObject: {fileID: 8272399740354419135}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00013999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

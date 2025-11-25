@@ -21,10 +21,10 @@ public class Shooter : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Trigger wand hold animation
+            // Play wand hold animation from the start
             if (animator != null)
             {
-                animator.SetTrigger("Shoot");
+                animator.Play("wand hold", 0, 0f);
             }
             
             // Determine direction based on character's facing
