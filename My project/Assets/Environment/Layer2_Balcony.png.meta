@@ -116,13 +116,13 @@ TextureImporter:
       name: Layer2_Balcony_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 262
-        width: 1039
-        height: 291
+        x: 40
+        y: 371
+        width: 1555
+        height: 471
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Layer2_Balcony_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 371
+        width: 1598
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9ab323be3ba914f83ad2e1764888c2
+      internalID: 606567875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0c8143d031b2b7a4a96f717e19898820
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +171,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Layer2_Balcony_0: 3464791950316630130
+      Layer2_Balcony_1: 606567875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
