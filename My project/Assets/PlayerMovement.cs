@@ -27,10 +27,14 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
 
-        // Update animator Speed parameter
+        // Only update Speed if NOT in wand hold animation
         if (animator != null)
         {
-            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            if (!stateInfo.IsName("wand hold"))
+            {
+                animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+            }
         }
     }
 

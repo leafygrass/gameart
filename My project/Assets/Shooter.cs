@@ -21,10 +21,10 @@ public class Shooter : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Play wand hold animation from the start
+            // Force play wand hold animation - CrossFade with 0 duration is more aggressive
             if (animator != null)
             {
-                animator.Play("wand hold", 0, 0f);
+                animator.CrossFade("wand hold", 0f, 0, 0f);
             }
             
             // Determine direction based on character's facing
